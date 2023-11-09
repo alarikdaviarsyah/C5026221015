@@ -1,0 +1,155 @@
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+.daviNRP5026221015header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.daviNRP5026221015header-container {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.daviNRP5026221015buttongeneral {
+    background-color: #f0f0f0;
+    color: black;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 30px;
+    font-size: 16px;
+    align-items: center;
+}
+
+.daviNRP5026221015titikTiga {
+    height: 40px;
+    width: 40px;
+}
+
+.daviNRP5026221015ukuranIconTitikTiga {
+    width: 10px;
+    height: 10px;
+}
+
+.daviNRP5026221015subscribe-button {
+    height: 40px;
+    width: 130px;
+}
+
+.daviNRP5026221015ukuranIconBell {
+    width: 16px;
+    height: 16px;
+    transform: translateX(-20%);
+}
+
+.daviNRP5026221015tombolSubscribe {
+    height: 40px;
+    width: 130px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    background: none;
+}
+
+.daviNRP5026221015image-round{
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+}
+.daviNRP5026221015logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.daviNRP5026221015title {
+    font-size: 20px;
+    margin: 2px;
+    margin-top: 10px;
+}
+
+.daviNRP5026221015subtitle {
+    font-size: 16px;
+    margin: 2px;
+}
+
+.daviNRP5026221015container-sosmed {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.daviNRP5026221015logo-sosmed {
+    height: 40px;
+    width: 32px;
+    padding: 0px 8px;
+    margin: 3px;
+}
+
+.daviNRP5026221015button-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.daviNRP5026221015button-custom {
+    height: 56px;
+    width: 50vw;
+    border: 2px solid black;
+    border-radius: 30px;
+    box-shadow: rgb(0, 0, 0) 8px 8px 0px 0px;
+}
+
+.daviNRP5026221015button-thumbnail {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.daviNRP5026221015button-title {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.daviNRP5026221015button-element-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.daviNRP5026221015bg-white {
+    background-color: white;
+    border: #fff;
+    color: grey;
+}
+
+.daviNRP5026221015footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;
+}
+.daviNRP5026221015footer> img {
+    width: 120px;
+    height: 100px;
+    border-radius: 100%;
+}

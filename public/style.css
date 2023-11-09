@@ -1,0 +1,16 @@
+.topbar{
+    height: 70px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-topbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque;
+}
+.button{
+    
+}
