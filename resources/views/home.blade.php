@@ -9,5 +9,5 @@ Ini Halaman Home
 @endsection
 
 @section('konten')
-<h3>Isi Halaman Home</h3>
+<p>Isi Halaman Home</p>
 @endsection

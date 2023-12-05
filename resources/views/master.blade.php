@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title> @yield('judulhalaman')</title>
+  <title> belajar</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
@@ -23,9 +23,13 @@
         </nav>
     </header>
     <hr/>
+    <h3>@yield('judulhalaman')</h3>
     <br/>
     <br/>
-    @yield('konten')
+   <h5>@yield('judul')</h5>
+    <br>
+    <br>
+   @yield('konten')
     <br>
     <br>
     <hr>
