@@ -2,5 +2,5 @@
 <br>
 <hr>
 <footer>
-    <p>@Muhammad Alarik Daviarsyah 5026221015</p>
+    <p class="text-center">@Muhammad Alarik Daviarsyah 5026221015</p>
 </footer>

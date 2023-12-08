@@ -98,3 +98,13 @@ Route::get('/keranjangbelanja','App\Http\Controllers\KeranjangController@index')
 Route::get('/keranjangbelanja/beli','App\Http\Controllers\KeranjangController@beli');
 Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangController@store');
 Route::get('/keranjangbelanja/hapus/{id}','App\Http\Controllers\KeranjangController@hapus');
+
+// Mobil
+Route::get('/mobil','App\Http\Controllers\MobilController@index');
+Route::get('/mobil/tambah','App\Http\Controllers\MobilController@tambah');
+Route::post('/mobil/store','App\Http\Controllers\MobilController@store');
+Route::get('/mobil/edit/{id}','App\Http\Controllers\MobilController@edit');
+Route::post('/mobil/update','App\Http\Controllers\MobilController@update');
+Route::get('/mobil/hapus/{id}','App\Http\Controllers\MobilController@hapus');
+Route::get('/mobil/cari','App\Http\Controllers\MobilController@cari');
+Route::get('/mobil/view/{id}', 'App\Http\Controllers\MobilController@view');
