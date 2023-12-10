@@ -1,4 +1,4 @@
-@extends('NilaiKuliahMaster')
+@extends('master2')
 
  @section('judulhalaman','Data Nilai Kuliah')
 

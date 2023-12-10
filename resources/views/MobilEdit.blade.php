@@ -1,4 +1,4 @@
-@extends('MobilMaster')
+@extends('master2')
 @section('judulhalaman', 'Edit Data Mobil')
 
 @section('konten')
