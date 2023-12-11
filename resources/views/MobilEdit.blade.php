@@ -18,7 +18,7 @@
         <div class="form-group row">
             <label for="merkmobil" class="col-sm-2 col-form-label">Merk</label>
             <div class="col-sm-10">
-                <input type="text" name="merkmobil" class="form-control" id="mobilmerk" value="{{ $m->merkmobil }}">
+                <input type="text" name="merkmobil" class="form-control" id="merkmobil" value="{{ $m->merkmobil }}">
             </div>
         </div>
         <div class="form-group row">

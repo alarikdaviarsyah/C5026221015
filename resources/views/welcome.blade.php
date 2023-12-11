@@ -512,3 +512,8 @@
 </body>
 
 </html>
+
+{{-- CREATE TRIGGER increment_id_trigger
+BEFORE INSERT ON your_table
+FOR EACH ROW
+SET NEW.id_column = (SELECT MAX(id_column) + 1 FROM your_table); --}}

@@ -108,3 +108,8 @@ Route::post('/mobil/update','App\Http\Controllers\MobilController@update');
 Route::get('/mobil/hapus/{id}','App\Http\Controllers\MobilController@hapus');
 Route::get('/mobil/cari','App\Http\Controllers\MobilController@cari');
 Route::get('/mobil/view/{id}', 'App\Http\Controllers\MobilController@view');
+
+// kategori
+Route::get('/kategori','App\Http\Controllers\KategoriController@index');
+Route::post('/kategori/store','App\Http\Controllers\MobilController@store');
+

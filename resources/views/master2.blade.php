@@ -26,7 +26,7 @@
           <!-- Dropdown -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-             Menu
+             DATABASE
             </a>
             <div class="dropdown-menu">
                 <a class="dropdown-item" href="/pegawai">Pegawai</a>
