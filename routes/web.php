@@ -111,5 +111,6 @@ Route::get('/mobil/view/{id}', 'App\Http\Controllers\MobilController@view');
 
 // kategori
 Route::get('/kategori','App\Http\Controllers\KategoriController@index');
-Route::post('/kategori/store','App\Http\Controllers\MobilController@store');
+
+Route::get('/kategori/view','App\Http\Controllers\KategoriController@view');
 
